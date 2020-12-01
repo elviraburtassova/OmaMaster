@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmaMaster.Android", "OmaMaster\OmaMaster.Android\OmaMaster.Android.csproj", "{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmaMaster", "OmaMaster\OmaMaster\OmaMaster.csproj", "{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0030A3B9-96C5-439E-95E3-AE61CACC6EC3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4E0C7A-0C77-4A8A-ABCE-1FE313C9A5FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39E44959-6540-42B3-A20F-608EA621A3C8}
+	EndGlobalSection
+EndGlobal
