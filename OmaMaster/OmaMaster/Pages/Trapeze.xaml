@@ -4,9 +4,8 @@
              x:Class="OmaMaster.Pages.Trapeze">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Трапеция" Font="20" TextColor="Black" HorizontalOptions="Center"/>
+            <Label Text="Какие бывают" TextColor="Black" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

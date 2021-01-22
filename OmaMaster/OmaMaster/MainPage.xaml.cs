@@ -28,70 +28,70 @@ namespace OmaMaster
 			{
 				Text = "Геометрические фигуры",
 				Detail = "Доп.Информация о проекте",
-				ImagePath = "",
+				ImagePath = "geometric.png",
 				TargetPage = typeof(Pages.Figures)
 			});
 			list.Add(new MasterMenuItems()//----------------------- 2 формы
 			{
 				Text = "Формы",
 				Detail = "Немного о геометрических формах",
-				ImagePath = "",
+				ImagePath = "forms.png",
 				TargetPage = typeof(Pages.Shapes)
 			});
 			list.Add(new MasterMenuItems()//------------------------------- 3 прямоугольн.треуг.
 			{
 				Text = "Прямоугольный треугольник",
 				Detail = "О прямоугольном треугольнике",
-				ImagePath = "",
+				ImagePath = "prjam.png",
 				TargetPage = typeof(Pages.Triangle1)
 			});
 			list.Add(new MasterMenuItems()//---------------------------- 4 равнобедр.треуг
 			{
 				Text = "Равнобедренный треугольник",
 				Detail = "О равнобедренном треугольнике",
-				ImagePath = "",
+				ImagePath = "ravnbedr.png",
 				TargetPage = typeof(Pages.Triangle2)
 			});
 			list.Add(new MasterMenuItems() //----------------- 5 равносторон.треуг.
 			{
 				Text = "Равносторонний треугольник",
 				Detail = "О равностороннем треугольнике",
-				ImagePath = "",
+				ImagePath = "ravnstor.png",
 				TargetPage = typeof(Pages.Triangle3)
 			});
 			list.Add(new MasterMenuItems()//----------------------- 6 квадрат
 			{
 				Text = "Квадрат",
 				Detail = "О квадрате",
-				ImagePath = "",
+				ImagePath = "square.png",
 				TargetPage = typeof(Pages.Square)
 			});
 			list.Add(new MasterMenuItems()//------------------------------- 7 прямоугольник
 			{
 				Text = "Прямоугольник",
 				Detail = "О прямоугольниках",
-				ImagePath = "",
+				ImagePath = "rectangle.png",
 				TargetPage = typeof(Pages.Rectangle)
 			});
 			list.Add(new MasterMenuItems()//---------------------------- 8 параллелограм
 			{
 				Text = "Параллелограм",
 				Detail = "О параллелограммах",
-				ImagePath = "",
+				ImagePath = "parall.png",
 				TargetPage = typeof(Pages.Parallelogram)
 			});
 			list.Add(new MasterMenuItems()//------------------------------- 9 ромб
 			{
 				Text = "Ромб",
 				Detail = "О ромбах",
-				ImagePath = "",
+				ImagePath = "rhombus.png",
 				TargetPage = typeof(Pages.Rhombus)
 			});
 			list.Add(new MasterMenuItems()//---------------------------- 10 трапеция
 			{
 				Text = "Трапеция",
 				Detail = "О трапециях",
-				ImagePath = "",
+				ImagePath = "trapeze.png",
 				TargetPage = typeof(Pages.Trapeze)
 			});
 			return list;
