@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Shapes">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="О формах:" Font="20" TextColor="Black" HorizontalOptions="Center"/>
-            <Label Text="Какие бывают" TextColor="Black" HorizontalOptions="Center"/>
+        <StackLayout HorizontalOptions="Center" BackgroundColor="#F0CD66" Margin="20">
+            <Image x:Name="figuresImage"/>
+            <Label Text="О формах фигур:" Font="50" FontAttributes="Bold" TextColor="OrangeRed" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#FFEBB1" Text="Геометрическая фигура (от лат. figura) — термин, формально применимый к произвольному множеству точек." Font="40" TextColor="#F76405" HorizontalOptions="Center"/>
+            <ImageButton Source="shapes.png" x:Name="For" Clicked="For_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
