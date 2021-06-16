@@ -16,5 +16,10 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Tr2_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь равнобедренного треугольника:", "Необходимо вычислить произведение половины основания этого треугольника на его высоту - SΔ = 1/2 * a * ha", "Скрыть");
+		}
+    }
 }

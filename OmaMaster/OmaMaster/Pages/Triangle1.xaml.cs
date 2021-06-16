@@ -12,15 +12,15 @@ namespace OmaMaster.Pages
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Triangle1 : ContentPage
 	{
-		Entry ent1, ent2, ent3;
 
 		public Triangle1()
 		{
 			InitializeComponent();
 		}
-		private void trig1_Clicked(object sender, EventArgs e)
-		{
-			ent3.Text = "Решение:\n" + (1/2) * ((ent1) *(ent2));
+
+        private async void Tr1_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь прямоугольного треугольника:", "Равна половине произведения стороны на высоту, проведенную к этой стороне - SΔ= 1/2(a * h)", "Скрыть");
 		}
-	}
+    }
 }

@@ -16,5 +16,10 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Sqr_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь квадрата:", "Равна квадрату длины его стороны - S = a2", "Скрыть");
+		}
+    }
 }

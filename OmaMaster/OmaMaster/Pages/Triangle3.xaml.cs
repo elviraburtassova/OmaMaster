@@ -16,5 +16,10 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
+
+        private async void Tr3_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь равностороннего треугольника:", "Вычисляется как половина произведения его основания на высоту - SΔ = (a2 * √3)/ 4", "Скрыть");
+		}
 	}
-}
+    }
