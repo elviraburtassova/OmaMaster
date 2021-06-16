@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Rectangle">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Прямоугольник" Font="20" TextColor="Black" HorizontalOptions="Center"/>
-            <Label Text="Какие бывают" TextColor="Black" HorizontalOptions="Center"/>
+        <StackLayout HorizontalOptions="Center" BackgroundColor="#F2E2B2" Margin="20">
+            <Label Text="Прямоугольник:" Font="50" FontAttributes="Bold" TextColor="#FFBE00" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#FFEBB1" Text="Прямоугольник — четырёхугольник, у которого все углы прямые (равны 90 градусам). В евклидовой геометрии для того, чтобы четырёхугольник был прямоугольником, достаточно, чтобы хотя бы три его угла были прямые, тогда четвёртый угол в силу теоремы о сумме углов многоугольника также будет равен 90°. В неевклидовой геометрии, где сумма углов четырёхугольника не равна 360°, прямоугольников не существует." Font="40" TextColor="#F38602" HorizontalOptions="Center"/>
+            <ImageButton Source="" x:Name="Rect" Clicked="Rect_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="450" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,10 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Rect_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь прямоугольника:", "Равна произведению его смежных сторон - S = a * b", "Скрыть");
+		}
+    }
 }
