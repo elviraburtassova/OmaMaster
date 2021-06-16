@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Rhombus">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Ромб" Font="20" TextColor="Black" HorizontalOptions="Center"/>
-            <Label Text="Какие бывают" TextColor="Black" HorizontalOptions="Center"/>
+        <StackLayout HorizontalOptions="Center" BackgroundColor="#F2E2B2" Margin="20">
+            <Label Text="Ромб:" Font="50" FontAttributes="Bold" TextColor="#FFBE00" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#FFEBB1" Text="Ромб (лат. rombus, в буквальном переводе: «бубен») — это параллелограмм, у которого все стороны равны." Font="40" TextColor="#F38602" HorizontalOptions="Center"/>
+            <ImageButton Source="" x:Name="Romb" Clicked="Romb_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="450" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

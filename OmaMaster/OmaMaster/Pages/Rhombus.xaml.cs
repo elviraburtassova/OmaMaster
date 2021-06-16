@@ -16,5 +16,10 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Romb_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь ромба:", "Равна половине произведения диагоналей - S = (1/2) * (d1 * d2) ", "Скрыть");
+		}
+    }
 }

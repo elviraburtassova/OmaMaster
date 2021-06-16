@@ -16,5 +16,10 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Par_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь параллелограмма:", "Равна произведению стороны на высоту, проведенную к этой стороне - S = a * ha", "Скрыть");
+		}
+    }
 }

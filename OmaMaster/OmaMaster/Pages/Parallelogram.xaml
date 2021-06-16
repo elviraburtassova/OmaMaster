@@ -3,11 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Parallelogram">
     <ContentPage.Content>
-        <StackLayout>
-            <Image x:Name="figuresImage"/>
-            <Label Text="О фигурах:" Font="50" FontAttributes="Bold" TextColor="Red" HorizontalOptions="Center"/>
-            <Label BackgroundColor="#F57085" Text="Данный проект создан для описания видов и формул для вычесления разных видов фигур." Font="40" TextColor="Black" HorizontalOptions="Center"/>
-            <Image Source="fig.jpg"/>
+        <StackLayout HorizontalOptions="Center" BackgroundColor="#F2E2B2" Margin="20">
+            <Label Text="Параллелограмм:" Font="50" FontAttributes="Bold" TextColor="#FFBE00" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#FFEBB1" Text="Параллелогра́мм — это четырёхугольник, у которого противоположные стороны попарно параллельны, то есть лежат на параллельных прямых. Частными случаями параллелограмма являются прямоугольник, квадрат и ромб." Font="40" TextColor="#F38602" HorizontalOptions="Center"/>
+            <ImageButton Source="" x:Name="Par" Clicked="Par_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="450" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

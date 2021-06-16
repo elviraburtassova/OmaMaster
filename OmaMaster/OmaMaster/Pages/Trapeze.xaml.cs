@@ -16,5 +16,9 @@ namespace OmaMaster.Pages
 		{
 			InitializeComponent();
 		}
-	}
+
+        private async void Trap_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Площадь трапеции:", "Равна произведению полусуммы ее оснований на высоту - S = (1/2) * (a + b) * h", "Скрыть");
+    }
 }
