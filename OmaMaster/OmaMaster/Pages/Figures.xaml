@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" BackgroundColor="LightPink" Margin="20">
             <Image x:Name="figuresImage"/>
-            <Label Text="Проект о фигурах:" Font="50" FontAttributes="Bold" TextColor="Red" HorizontalOptions="Center"/>
-            <Label BackgroundColor="#F57085" Text="Данный проект создан для описания видов и формул для вычесления разных видов фигур." Font="40" TextColor="Black" HorizontalOptions="Center"/>
+            <Label Text="Проект о фигурах:" Font="45" FontAttributes="Bold" TextColor="Red" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#F57085" Text="Данный проект создан для описания видов и формул для вычесления разных видов фигур." Font="34" TextColor="Black" HorizontalOptions="Center"/>
             <ImageButton Source="fig.jpg" x:Name="fig" Clicked="fig_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
         </StackLayout>
     </ContentPage.Content>

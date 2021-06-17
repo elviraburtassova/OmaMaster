@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Triangle2">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" BackgroundColor="#F2E2B2" Margin="20">
-            <Label Text="Равнобедренный треугольник:" Font="50" FontAttributes="Bold" TextColor="#FFBE00" HorizontalOptions="Center"/>
-            <Label BackgroundColor="#FFEBB1" Text="Равнобедренный треугольник — треугольник, в котором две стороны равны между собой по длине. Боковыми называются равные стороны, а последняя неравная им сторона — основанием. По определению, каждый правильный треугольник также является равнобедренным, но обратное утверждение неверно." Font="40" TextColor="#F38602" HorizontalOptions="Center"/>
-            <ImageButton Source="tr1.png" x:Name="Tr2" Clicked="Tr2_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="450" />
+        <StackLayout HorizontalOptions="Center" BackgroundColor="LightGreen" Margin="20">
+            <Label Text="Равнобедренный треугольник:" Font="30" FontAttributes="Bold" TextColor="#" HorizontalOptions="Center"/>
+            <Label BackgroundColor="DarkSeaGreen" Text="Равнобедренный треугольник — треугольник, в котором две стороны равны между собой по длине. Боковыми называются равные стороны, а последняя неравная им сторона — основанием. По определению, каждый правильный треугольник также является равнобедренным, но обратное утверждение неверно." Font="20" TextColor="DarkGreen" HorizontalOptions="Center"/>
+            <ImageButton Source="" x:Name="Tr2" Clicked="Tr2_Clicked" HorizontalOptions="Center" VerticalOptions="Fill" WidthRequest="1000" HeightRequest="250" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
