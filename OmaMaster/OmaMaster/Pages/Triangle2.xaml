@@ -4,9 +4,9 @@
              x:Class="OmaMaster.Pages.Triangle2">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" BackgroundColor="LightGreen" Margin="20">
-            <Label Text="Равнобедренный треугольник:" Font="30" FontAttributes="Bold" TextColor="#" HorizontalOptions="Center"/>
+            <Label Text="Равнобедренный треугольник:" Font="30" FontAttributes="Bold" TextColor="Green" HorizontalOptions="Center"/>
             <Label BackgroundColor="DarkSeaGreen" Text="Равнобедренный треугольник — треугольник, в котором две стороны равны между собой по длине. Боковыми называются равные стороны, а последняя неравная им сторона — основанием. По определению, каждый правильный треугольник также является равнобедренным, но обратное утверждение неверно." Font="20" TextColor="DarkGreen" HorizontalOptions="Center"/>
-            <ImageButton Source="" x:Name="Tr2" Clicked="Tr2_Clicked" HorizontalOptions="Center" VerticalOptions="Fill" WidthRequest="1000" HeightRequest="250" />
+            <ImageButton Source="tr2.png" x:Name="Tr2" Clicked="Tr2_Clicked" HorizontalOptions="Center" VerticalOptions="Fill" WidthRequest="1000" HeightRequest="250" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

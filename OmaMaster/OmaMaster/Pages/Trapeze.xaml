@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Trapeze">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" BackgroundColor="#F2E2B2" Margin="20">
-            <Label Text="Трапеция" Font="50" FontAttributes="Bold" TextColor="#FFBE00" HorizontalOptions="Center"/>
-            <Label BackgroundColor="#FFEBB1" Text="Трапе́ция — выпуклый четырёхугольник, у которого две стороны параллельны, а две другие стороны не параллельны. Часто в определении трапеции опускают последнее условие. Параллельные противоположные стороны называются основаниями трапеции, а две другие — боковыми сторонами. Средняя линия — отрезок, соединяющий середины боковых сторон." Font="40" TextColor="#F38602" HorizontalOptions="Center"/>
-            <ImageButton Source="" x:Name="Trap" Clicked="Trap_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="450" />
+        <StackLayout HorizontalOptions="Center" BackgroundColor="#C8E6C9" Margin="20">
+            <Label Text="Трапеция" Font="30" FontAttributes="Bold" TextColor="#388E3C" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#A5D6A7" Text="Трапе́ция — выпуклый четырёхугольник, у которого две стороны параллельны, а две другие стороны не параллельны. Часто в определении трапеции опускают последнее условие. Параллельные противоположные стороны называются основаниями трапеции, а две другие — боковыми сторонами. Средняя линия — отрезок, соединяющий середины боковых сторон." Font="20" TextColor="#43A047" HorizontalOptions="Center"/>
+            <ImageButton Source="tr.png" x:Name="Trap" Clicked="Trap_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="250" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

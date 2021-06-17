@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmaMaster.Pages.Square">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" BackgroundColor="#F2E2B2" Margin="20">
-            <Label Text="Квадрат:" Font="50" FontAttributes="Bold" TextColor="#FFBE00" HorizontalOptions="Center"/>
-            <Label BackgroundColor="#FFEBB1" Text="Квадра́т — правильный четырёхугольник, то есть четырёхугольник, у которого все углы равны и все стороны равны. Квадрат является одновременно частным случаем ромба и прямоугольника. Также является двумерным гиперкубом." Font="40" TextColor="#F38602" HorizontalOptions="Center"/>
-            <ImageButton Source="" x:Name="Sqr" Clicked="Sqr_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="450" />
+        <StackLayout HorizontalOptions="Center" BackgroundColor="#5499C7 " Margin="20">
+            <Label Text="Квадрат:" Font="30" FontAttributes="Bold" TextColor="#1A5276" HorizontalOptions="Center"/>
+            <Label BackgroundColor="#7FB3D5" Text="Квадра́т — правильный четырёхугольник, то есть четырёхугольник, у которого все углы равны и все стороны равны. Квадрат является одновременно частным случаем ромба и прямоугольника. Также является двумерным гиперкубом." Font="23" TextColor="##2980B9" HorizontalOptions="Center"/>
+            <ImageButton Source="kvad.jpg" x:Name="Sqr" Clicked="Sqr_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="1000" HeightRequest="250" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

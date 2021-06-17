@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" BackgroundColor="#F0CD66" Margin="20">
             <Image x:Name="figuresImage"/>
-            <Label Text="О формах фигур:" Font="30" FontAttributes="Bold" TextColor="OrangeRed" HorizontalOptions="Center"/>
-            <Label BackgroundColor="#FFEBB1" Text="Геометрическая фигура (от лат. figura) — термин, формально применимый к произвольному множеству точек." Font="20" TextColor="#F76405" HorizontalOptions="Center"/>
+            <Label Text="О формах фигур:" Font="20" FontAttributes="Bold" TextColor="#E67E22 " HorizontalOptions="Center"/>
+            <Label BackgroundColor="#FFEBB1" Text="Геометрическая фигура (от лат. figura) — термин, формально применимый к произвольному множеству точек." Font="15" TextColor="#F76405" HorizontalOptions="Center"/>
             <ImageButton Source="shapes.png" x:Name="For" Clicked="For_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
